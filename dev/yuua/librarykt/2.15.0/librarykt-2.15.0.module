@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yuua",
+    "module": "librarykt",
+    "version": "2.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "librarykt-2.15.0.jar",
+          "url": "librarykt-2.15.0.jar",
+          "size": 212527,
+          "sha512": "402925152ffc0fd300a1bf69c8b76b1d7fbd5de79cdb054f24d4d5e4cb48b92d03376bda2cfcf899ada6c4eb0a8534a4434cd24c83484b267d265fa1fd1f04d3",
+          "sha256": "48d22c2be943fab40285729e970fe6a1cc62e013cd1326c8e71eccef1a71b029",
+          "sha1": "a77ffba897d7c8a710553063c2fbfb01c7743cf1",
+          "md5": "5e85fc5b44a790292119561be3652a17"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.6"
+          }
+        },
+        {
+          "group": "com.github.minndevelopment",
+          "module": "jda-ktx",
+          "version": {
+            "requires": "0.10.0-beta.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "com.github.ajalt.mordant",
+          "module": "mordant",
+          "version": {
+            "requires": "2.0.0-beta5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "librarykt-2.15.0.jar",
+          "url": "librarykt-2.15.0.jar",
+          "size": 212527,
+          "sha512": "402925152ffc0fd300a1bf69c8b76b1d7fbd5de79cdb054f24d4d5e4cb48b92d03376bda2cfcf899ada6c4eb0a8534a4434cd24c83484b267d265fa1fd1f04d3",
+          "sha256": "48d22c2be943fab40285729e970fe6a1cc62e013cd1326c8e71eccef1a71b029",
+          "sha1": "a77ffba897d7c8a710553063c2fbfb01c7743cf1",
+          "md5": "5e85fc5b44a790292119561be3652a17"
+        }
+      ]
+    }
+  ]
+}

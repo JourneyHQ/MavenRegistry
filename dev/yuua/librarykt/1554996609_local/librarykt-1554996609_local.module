@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yuua",
+    "module": "librarykt",
+    "version": "1554996609_local",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "librarykt-1554996609_local.jar",
+          "url": "librarykt-1554996609_local.jar",
+          "size": 212527,
+          "sha512": "861bc18fe9a721457c15abe4d9581e1406fa791b8c5cb9409bc5c26686dc29946d42cdeb414b10e83c57b6a3bf41df9f0222709ab389a5449ed7518d42f01fa6",
+          "sha256": "8efb0724c2f62b4cd4250fe5d4daee561805e5002e862e08c6483b47b268303f",
+          "sha1": "78318d8bccccb92e3cade51b74b5f8554549b408",
+          "md5": "27839a77fdc3370d4263375dfc6c3b43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.6"
+          }
+        },
+        {
+          "group": "com.github.minndevelopment",
+          "module": "jda-ktx",
+          "version": {
+            "requires": "0.10.0-beta.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "com.github.ajalt.mordant",
+          "module": "mordant",
+          "version": {
+            "requires": "2.0.0-beta5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "librarykt-1554996609_local.jar",
+          "url": "librarykt-1554996609_local.jar",
+          "size": 212527,
+          "sha512": "861bc18fe9a721457c15abe4d9581e1406fa791b8c5cb9409bc5c26686dc29946d42cdeb414b10e83c57b6a3bf41df9f0222709ab389a5449ed7518d42f01fa6",
+          "sha256": "8efb0724c2f62b4cd4250fe5d4daee561805e5002e862e08c6483b47b268303f",
+          "sha1": "78318d8bccccb92e3cade51b74b5f8554549b408",
+          "md5": "27839a77fdc3370d4263375dfc6c3b43"
+        }
+      ]
+    }
+  ]
+}
